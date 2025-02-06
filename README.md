@@ -1,6 +1,9 @@
 # LegacyTradeHelper
 A WoW addon to help my guild with consumable trading.
 
+# Installation
+Download the code as a zip file and extract the `LegacyTradeHelper` folder (the one inside `LegacyTradeHelper-main`) into your appropriate WoW `Interface\Addons` folder (ie, `<wow dir>\_classic_era_\Interface\AddOns`).
+
 # Usage
 Enter the command `/LegacyTradeHelper help` for in-game usage.
 
