@@ -22,6 +22,8 @@ local Constants = {
 		maxTries = 25,
 	},
 
+	TradeRangeIndex = 2,
+
 	AddonName = "LegacyTradeHelper",
 	AddonAbbreviation = "lth",
 
@@ -377,13 +379,18 @@ local function CommandStart(args)
 		return
 	end
 
-	if UnitIsPlayer("target") then
+	if UnitGUID("target") == UnitGUID("player") then
 		printer:Print("Helper not starting, cannot trade with yourself.")
 		return
 	end
 
 	if not UnitPlayerControlled("target") then
 		printer:Print("Helper not starting, target is not a player.")
+		return
+	end
+
+	if not CheckInteractDistance("target", Constants.TradeRangeIndex) then
+		printer:Print("Helper not starting, target is too far away.")
 		return
 	end
 
