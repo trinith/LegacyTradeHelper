@@ -7,6 +7,8 @@ Download the code as a zip file and extract the `LegacyTradeHelper` folder (the 
 # Usage
 Enter the command `/LegacyTradeHelper help` for in-game usage.
 
+**IMPORTANT NOTE:** Sometimes the trade will go through but the trade window won't open. This can happen when you trade normally as well. If this does happen, just type `/reloadui` and try again :)
+
 # Quick Start Guide
 1. Target the player you wish to open trade with.
 2. Enter the chat command, `/LegacyTradeHelper start`
