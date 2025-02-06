@@ -1,0 +1,8 @@
+## Interface: 11506
+## Title: LegacyTradeHelper
+## Notes: Provides some trade window automation assistance.
+## Version: 1.0
+## SavedVariables: LegacyTradeHelperSettings
+## Author: MrSmellybeard
+
+LegacyTradeHelper.lua
